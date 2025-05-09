@@ -1,12 +1,27 @@
-# React + Vite
+# First React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This is my React application, a dynamic single-page app built with `React.js v19`. 
+The app fetches and displays movie data using the `TMDB free movie API`, stores search trends in an `AppWrite` 
+cloud database, and features a modern, responsive UI styled with `TailwindCSS v4`. Key features include a debounced 
+search functionality for optimized API calls and a trending movies section displaying the most searched movies 
+from the database. This project demonstrates my ability to integrate front-end frameworks, external APIs, 
+cloud-based backends, and performance optimizations into a cohesive web application.
 
-Currently, two official plugins are available:
+<img src="">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+>Debounced Search: A search bar with 500ms debouncing to reduce API calls, improving performance and user experience.
 
-## Expanding the ESLint configuration
+>Trending Movies Section: Displays the most searched movies, fetched from the AppWrite database using search count data.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+>Dynamic Movie Data: Retrieves and renders movie details from the TMDB API.
+
+>Responsive Design: A sleek, mobile-friendly UI styled with TailwindCSS v4’s utility-first classes.
+
+>Backend Integration: Uses AppWrite to store and retrieve search data, enabling trending movie functionality.
+
+>Component-Based Architecture: Modular React components for reusability and maintainability.
+
+>State Management: Leverages React hooks (useState, useEffect) and react-use for efficient state and side-effect handling.
+
