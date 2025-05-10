@@ -7,8 +7,16 @@ cloud database, and features a modern, responsive UI styled with `TailwindCSS v4
 search functionality for optimized API calls and a trending movies section displaying the most searched movies 
 from the database. This project demonstrates my ability to integrate front-end frameworks, external APIs, 
 cloud-based backends, and performance optimizations into a cohesive web application.
-
-<img src="">
+<div class = "container">
+    <div style="margin-bottom: 30px">
+        <img src="./src/assets/image1.png" alt="Landing page image">
+        <figcaption style="font-style: italic">First image of the app</figcaption>
+    </div>
+    <div style="margin-bottom: 30px">
+        <img src="./src/assets/image1.png" alt="Landing page image">
+        <figcaption style="font-style: italic">Second image of the app</figcaption>
+    </div>
+</div>
 
 ## Features
 >Debounced Search: A search bar with 500ms debouncing to reduce API calls, improving performance and user experience.
